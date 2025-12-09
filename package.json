@@ -6,9 +6,9 @@
 	"author": "",
 	"main": "index.js",
 	"scripts": {
-		"checker": "node ./node_modules/can-i-ignore-scripts & node ../shai-hulud-scanner/dist/index.js --working-directory=\"../webpack-test\"",
+		"check": "node ./node_modules/can-i-ignore-scripts & node ../shai-hulud-scanner/dist/index.js --working-directory=\"../webpack-test\"",
 		"build": "npx webpack",
-		"start-server": "npx webpack serve"
+		"dev": "npx webpack serve"
 	},
 	"devDependencies": {
 		"can-i-ignore-scripts": "^0.4.0",
